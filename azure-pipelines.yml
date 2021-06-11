@@ -92,7 +92,7 @@ jobs:
   - task: InstallAppleCertificate@2
     displayName: 'Install Apple Signing Identity'
     inputs:
-      certSecureFile: 'Mobile_DevOps_AdHoc_Certificate.p12'
+      certSecureFile: 'Mobile_DevOps_Distribution.p12'
       certPwd: '$(AppleCertificatePassword)'
       keychain: 'temp'
       deleteCert: true 
